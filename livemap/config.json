@@ -4,39 +4,29 @@
     "tileDirectory": "images/tiles",
     "iconDirectory": "images/icons",
     "showIdentifiers" : false,
-    "groupPlayers": true, // Wether the map should group players together into "clusters" or not.
+    "groupPlayers": true, // 
 
-    "defaults": { // If a server doesn't have the key-value set, it will fallback to these values
-        "ip": "chpofficer20-fivem.us.to", // Make sure this is the PUBLIC IP of the FIVEM server
-        "socketPort": "30121" // Set to the port that you set in the "socket_port" convar (if different to the one in the config)
+    "defaults": { 
+        "ip": "71.176.112.54", 
+        "socketPort": "30121" 
     },
 
     "servers": {
-        "Default server 1": {}, // The config values are above, no need to write them again
-        "Main Server": { // Only the IP is different for this server. So, change it
-            "ip" : "chpofficer20-fivem.us.to"
-        },
-        "Everything is different": {
-            "ip": "chpofficer20-fivem.us.to",
-            "socketPort": "60121"
-        },
-        "Reverse Proxy Example": {
-            "reverseProxy" : { // If you have knowledge on how to set up a "reverse proxy" for your webserver and want to keep the map on a secure connection, set the values below.
-                "socket": "wss://example.com", // The secure, proxied url for the socket connection
-                "blips": "https://example.com/server1/blips.json" // The secure, proxied url for the blip file
-            }
+        "CHPOfficer20": {}, 
+        "Main Server": { 
+            "ip" : "71.176.112.54"
         }
     },
     "maps" : [
         {
             "name": "Normal",
             "url": "{tileDirectory}/normal/minimap_sea_{y}_{x}.png",
-            "minZoom": -2 // Set lower to zoom out more
+            "minZoom": -2 
         },
         {
             "name": "Postal",
             "url": "{tileDirectory}/postal/minimap_sea_{y}_{x}.png",
-            "minZoom": -5 // Since this is 3 times bigger, just remove 3 from the default minZoom
+            "minZoom": -5 
         }
     ]
 }
