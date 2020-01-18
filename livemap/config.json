@@ -14,7 +14,6 @@
     "servers": {
         "CHPOfficer20": { 
             "ip" : "71.176.112.54"
-            "socketPort": "30121"
         }
     },
     "maps" : [
