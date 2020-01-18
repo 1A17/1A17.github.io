@@ -4,16 +4,17 @@
     "tileDirectory": "images/tiles",
     "iconDirectory": "images/icons",
     "showIdentifiers" : false,
-    "groupPlayers": true, // 
+    "groupPlayers": true, 
 
     "defaults": { 
         "ip": "71.176.112.54", 
-        "socketPort": "30120" 
+        "socketPort": "30121" 
     },
 
     "servers": {
         "CHPOfficer20": { 
             "ip" : "71.176.112.54"
+            "socketPort": "30121"
         }
     },
     "maps" : [
