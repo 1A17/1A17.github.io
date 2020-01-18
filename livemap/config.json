@@ -8,13 +8,13 @@
 
     "defaults": { 
         "ip": "71.176.112.54", 
-        "socketPort": "40120" 
+        "socketPort": "30121" 
     },
 
     "servers": {
         "CHPOfficer20": { 
             "ip": "71.176.112.54", 
-            "socketPort": "40120" 
+            "socketPort": "30121" 
         }
     },
     "maps" : [
